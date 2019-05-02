@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<head>
+  <title>Anna Dowlin</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://fidesdiariodigital.files.wordpress.com/2015/06/guacamaya.jpg");
+      background-size: cover;
+      background-position: center;
+      color: yellow;
+      font-family: cursive;
+    }
+    p {
+      font-size: 60px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+     
+     
+    }
+    input[type="submit"] {
+      background: purple;
+      color: white;
+    }
+    img{
+      border-radius: 100px;
+      width: 250px; 
+    }
+      
+  </style>
+</head>
+<body>
+  <img src="https://s3.amazonaws.com/images.ecwid.com/images/1443015/690780115.jpg">
+  <p id="Guaca"></p>
+  <input id="Reyes">
+  <input type="submit" onclick = "submit()">
+ 
+  
+<script>
+
+Dean = document.getElementById("Guaca")
+prompts = {
+  Question1:"Do you prefer Rio de Janeiro or Mexico City?",
+  Question2:"Do you prefer Dubai or Machu Picchu?",
+  Question3:"Do you prefer Paris or Venice?",
+  Question4:"Do you prefer New York or Santorini?",
+  Question5:"Do you prefer Tokyo or Athens?",
+  Question6:"Do you prefer Singapore or Hong Kong?",
+  Question7:"Do you prefer Madrid or Bali?",
+  Question8:"Do you prefer Miami or Ontario?",
+  Question9:"Do you prefer Bogota or Buenos Aires?",
+  Question10:"Do you prefer Rome or London?",
+}
+
+
+
+Demi = document.getElementById("Reyes")
+
+function submit() {
+  if (Demi.value == "Rio de Janeiro") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question2
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Mexico City") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question6
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Machu Picchu") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question3
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Dubai") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question10
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Singapore") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question7
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Hong Kong") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question2
+    Demi.value = ""
+    } 
+  
+  if (Demi.value == "Venice") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question4
+    Demi.value = ""
+    }  
+  
+  if (Demi.value == "Bali") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question8
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Santorini") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question5
+    Demi.value = ""
+    } 
+  
+  if (Demi.value == "Miami") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question9
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Ontario") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question3
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Athens") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question6
+    Demi.value = ""
+    }  
+    
+  if (Demi.value == "Bogota") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Buenos Aires") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Rome") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question8
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Madrid") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question4
+    Demi.value = ""
+    } 
+  
+  if (Demi.value == "London") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question5
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Tokyo") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question9
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "New York") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question10
+    Demi.value = ""
+    } 
+    
+  if (Demi.value == "Santorini") { 
+    //alert("submited") 
+    Dean.innerHTML = prompts.Question9
+    Demi.value = ""
+    } 
+}
+
+Dean.innerHTML = prompts.Question1
+</script>
+</body>
